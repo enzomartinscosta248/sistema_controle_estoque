@@ -29,18 +29,11 @@ int main(void) {
     );
 
     do {
-        /*
-         * Usa a mesma funcao de leitura segura utilizada
-         * no restante do programa.
-         */
+        
         if (!lerInteiro("", &opcao)) {
             continue;
         }
-
-        /*
-         * O menu precisa ser mostrado antes da leitura.
-         * Por isso fazemos a leitura separadamente abaixo.
-         */
+        
         switch (opcao) {
 
             case 1:
